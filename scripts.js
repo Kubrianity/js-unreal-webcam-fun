@@ -11,5 +11,14 @@ function getVideo() {
         video.srcObject = localMediaStream;
         video.play();
     })
+    .catch(err => {
+        console.log("Unable to access media", err);
+    })
 }
 getVideo();
+
+function paintToCanvas() {
+    const {videoWidth: width, videoHeight: height} = video;
+    canvas.width = width;
+    canvas.height = height;
+}
