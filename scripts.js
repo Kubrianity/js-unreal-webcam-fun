@@ -25,3 +25,10 @@ function paintToCanvas() {
         ctx.drawImage(video, 0, 0, width, height);
     }, 16)
 }
+function takePhoto() {
+    // play the sound
+    snap.currentTime = 0;
+    snap.play();
+}
+
+video.addEventListener("canplay", paintToCanvas);
