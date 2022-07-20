@@ -23,3 +23,10 @@ npm start
 You will be able to view the project at your server written in the command prompt </br>
 http://localhost:3000
 
+### Usage & Features
+- Reaching media devices of users and adjusting the size of it with canvas size
+- Taking picture with snap sound and enabling users to download them
+- redEffect() function modifies the raw pixel datas corresponding to red colour
+- rgbSplit() function gives glitch-like appearance by modifying the raw pixel datas corresponding to RGB values 
+- greenScreen() function provides treshold effect by changing the pixel data corresponding to transparency / alpha value
+
